@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Weather</name>
+    <description>
+        Weather app for any city, anywhere in the world.
+    </description>
+    <author email="trina@digitalpersona.ca" href="http://digitalpersona.ca">
+        Digital Persona
+    </author>
+    <content src="index.html" />
+    <platform name="android">
+        <icon src="www/res/icon/icon.png"></icon>
+    </platform>
+    <access origin="*" />
+</widget>

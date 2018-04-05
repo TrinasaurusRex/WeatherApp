@@ -1,0 +1,174 @@
+@font-face {
+    font-family:Quicksand;
+    src: url(../font/Quicksand/Quicksand-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    height:100%;
+    margin: 0px;
+    color: white;
+    font-family: Quicksand;
+}
+
+.km-pane,.km-shim {
+    font-family: Quicksand;
+      font-size: 25px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+span {
+    font-size: 25px;
+}
+
+
+.km-header, .km-navbar, .km-footer {
+    background-color: transparent;
+}
+
+
+.km-navbar{
+    display: flex;
+    width: 100%;
+    align-content: space-between;
+}
+
+.km-leftitem {
+    left: .1em;
+    right: auto
+}
+
+.km-rightitem {
+    right: .1em;
+    left: auto
+}
+
+.searchbar {
+    display: flex;
+    margin-top: 5%;
+}
+
+
+input {
+    border-radius: 35px;
+    width: 70%;
+    height: 45px;
+    align-content: flex-end;
+    margin-top: 15px;
+    padding-left: 10%;
+    
+}
+
+input[type="text" i] {
+    padding-left: 3%;
+}
+
+#submit {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    border-radius: 35px;
+    height: 35px;
+    width: 90%;
+    font-family: Quicksand;
+    font-size: 20px;
+    text-decoration-line: none;
+    border-style: solid;
+    align-self: center;
+    margin-bottom: 15%;
+}
+
+ul {
+    list-style-type: none;
+    -webkit-padding-start: 20px;
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 40%;
+}
+
+.km-left-drawer {
+    background-color: #eee;
+    height: 100%;
+    opacity: .70;
+    color: black;
+    transform: translate3d(0, 0px, 0px);
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.km-content p {
+    margin-left: 0px;
+}
+
+#name {
+    margin-top: 10%
+}
+
+.km-view-title {
+    line-height: 50px;
+    margin-top: .1em;
+}
+.km-view-title > span {
+    font-size: 35px;
+}
+#temp, #description, #name{
+    font-size: 45px;
+    font-weight: 100;
+}
+
+#wind {
+    margin-top: 15%;
+}
+
+.material-icons {
+    font-size: 55px;
+    color:white;
+
+} 
+main {
+    height: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main .wi {
+    font-size: 100px;
+    padding: 5%;
+}
+.weather_bg {
+    background: linear-gradient(to bottom, rgb(114,115,163) 0%,rgb(249,129,64) 100%);
+    
+/*    I want to have the background colours related to the temperature, but that's a prject for another day*/
+/*    background: linear-gradient(to bottom, rgba(17,91,141,1) 0%,rgba(144,205,229,1) 100%);*/
+}
+
+footer {
+    text-align: center;
+    color: transparent;
+}
+
+a {
+    text-decoration: none
+}
+
